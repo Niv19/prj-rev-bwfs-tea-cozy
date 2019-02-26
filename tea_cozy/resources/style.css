@@ -1,0 +1,152 @@
+body {
+
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  background-color: black;
+
+}
+
+.logo {
+
+  display: flex;
+  height: 50px;
+  padding-left: 10px;
+
+}
+
+nav span {
+
+  text-decoration: underline;
+  padding-right: 15px;
+
+}
+
+header a {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+
+.mission_header {
+  background-color: black;
+  color: seashell;
+}
+
+.featured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+
+
+}
+
+.featured_header {
+  margin-top: 45px;
+  background-color: black;
+  color: seashell;
+}
+
+.teas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+
+}
+figure img {
+  height: 200px;
+  width: 300px;
+
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.location_header {
+  align-self: flex-start;
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+.location_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.location_content figure {
+  background-color: black;
+  opacity: 1;
+  margin: 40px;
+  width: 300px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 200px;
+  width: 1200px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.main {
+  padding-left: 138px;
+
+
+}
+
+.copyright {
+  align-self: flex-start;
+  padding-left: 20px;
+}
